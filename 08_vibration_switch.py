@@ -30,7 +30,7 @@ def loop():
 			if state > 1:
 				state = 0
 			Led(state)
-			time.sleep(0.3)
+			time.sleep(0.1)
 
 def destroy():
 	GPIO.output(Gpin, GPIO.HIGH)       # Green led off
